@@ -4,3 +4,4 @@ trimestre de la asignatura de Lenguaje de Marcas.
 
 1. Lista la cantidad de atractivos turisticos de canaria.
 
+2. Lista los atractivos turisticos.
