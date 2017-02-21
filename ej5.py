@@ -6,3 +6,4 @@ raiz=doc.getroot()
 bi=raw_input("Introduce la ID: ")
 
 for codigo in raiz:
+    if codigo.find("idbiblio").text==bi:
