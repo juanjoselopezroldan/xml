@@ -3,3 +3,4 @@ from lxml import etree
 doc = etree.parse('Biblioteca.xml')
 raiz=doc.getroot()
 
+bi=raw_input("Introduce la ID: ")
