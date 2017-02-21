@@ -6,4 +6,5 @@ raiz=doc.getroot()
 bi=str(raw_input("Introduce el nombre: ")).title()
 
 for biblioteca in raiz:
-	print "La Biblioteca se llama:",biblioteca.find("nombre").text
+    if bi in biblioteca.find("nombre").text:
+        print "La Biblioteca se llama:",biblioteca.find("nombre").text
