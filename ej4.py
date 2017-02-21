@@ -11,4 +11,4 @@ for biblioteca in raiz:
         print "La Biblioteca se llama:",biblioteca.find("nombre").text
         print "Tiene un horario de: "
         for hora in horario:
-            print "Dia",hora.tag,"tiene un hora
+            print "Dia",hora.tag,"tiene un horario de ",hora.text
