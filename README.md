@@ -10,4 +10,4 @@ trimestre de la asignatura de Lenguaje de Marcas.
 
 4. Introduce por teclado el nombre de una biblioteca y que muestre el horario.
 
-5. Introduce por teclado el codigo de la biblioteca y que mueste la direccion y sus coordenadas.
+5. Introduce por teclado el codigo de la biblioteca y que muestre el nombre, la direccion, la descripcion del mismo y sus coordenadas.
