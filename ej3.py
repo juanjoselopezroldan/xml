@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#Introduce por teclado una letra y que muestre las Bibliotecas que coinciden con esos caracteres introducidos.
 from lxml import etree
 doc = etree.parse('Biblioteca.xml')
 raiz=doc.getroot()
