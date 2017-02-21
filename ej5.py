@@ -9,3 +9,4 @@ for codigo in raiz:
     if codigo.find("idbiblio").text==bi:
         print "-La Biblioteca se llama:",codigo.find("nombre").text
         print "-Tiene la siguiente direccion:",codigo.find("direccion").text
+        print "-Informacion sobre la Biblioteca:",codigo.find("descripcion").text
