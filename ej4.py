@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#Introduce por teclado el nombre de una biblioteca y que muestre el horario.
 from lxml import etree
 doc = etree.parse('Biblioteca.xml')
 raiz=doc.getroot()
