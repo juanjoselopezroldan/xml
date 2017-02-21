@@ -5,3 +5,4 @@ raiz=doc.getroot()
 
 bi=str(raw_input("Introduce el nombre: ")).title()
 
+for biblioteca in raiz:
