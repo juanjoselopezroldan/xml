@@ -5,3 +5,7 @@ raiz=doc.getroot()
 
 contador=0
 
+for biblio in raiz:
+    contador=contador+1
+
+print "La cantidad de bibliotecas es de: ",contador
