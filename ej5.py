@@ -8,3 +8,5 @@ dia=raw_input("Introduce el dia: ")
 
 for cod in raiz:
     for codigo in cod:
+        for dias in codigo:
+            if dias.tag==dia:
