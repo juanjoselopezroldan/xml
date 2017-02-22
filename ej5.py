@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#Introduce por teclado el codigo de la biblioteca y que muestre el nombre, la direccion, la descripcion del mismo y sus coordenadas en una url para poder acceder a la ubicacion.
+#Introduce por teclado dia y que muestre las bibliotecas que abren ese dia, junto con su direccion y su localizacion en el mapa.
 from lxml import etree
 doc = etree.parse('Biblioteca.xml')
 raiz=doc.getroot()
