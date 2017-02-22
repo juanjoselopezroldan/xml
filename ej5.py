@@ -22,4 +22,4 @@ for cod in raiz:
                 print 10*"-"
                 no="true"
 if no=="false":
-    print "No hay ninguna biblioteca que habra ese dia a esa hora"
+    print "No hay ninguna biblioteca que este abierta ese dia a esa hora"
