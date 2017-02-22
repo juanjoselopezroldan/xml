@@ -6,6 +6,7 @@ raiz=doc.getroot()
 
 bi=str(raw_input("Introduce el nombre: ")).title()
 horario=raiz.find("biblioteca/horario")
+no="false"
 
 for biblioteca in raiz:
     if bi in biblioteca.find("nombre").text:
@@ -13,3 +14,6 @@ for biblioteca in raiz:
         print "Tiene un horario de: "
         for hora in horario:
             print "Dia",hora.tag,"tiene un horario de ",hora.text
+        no="true"
+if no=="false":
+    print "Biblioteca no encontrada"
