@@ -11,3 +11,5 @@ for cod in raiz:
         for dias in codigo:
             if dias.tag==dia:
                 print "-La Biblioteca se llama:",codigo.getparent().find("nombre").text
+                print "-Tiene la siguiente direccion:",codigo.getparent().find("direccion").text
+                print "Su URL es la siguiente: http://www.openstreetmap.org/#map=19/",codigo.getparent().find("latitud").text,"/",codigo.getparent().find("longitud").text
