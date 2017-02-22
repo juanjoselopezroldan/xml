@@ -10,4 +10,4 @@ trimestre de la asignatura de Lenguaje de Marcas.
 
 4. Introduce por teclado el nombre de una biblioteca y que muestre el horario.
 
-5. Introduce por teclado dia y hora y que muestre las bibliotecas que abren ese dia.
+5. Introduce por teclado dia y que muestre las bibliotecas que abren ese dia, junto con su direccion y su localizacion en el mapa.
