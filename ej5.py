@@ -3,3 +3,5 @@
 from lxml import etree
 doc = etree.parse('Biblioteca.xml')
 raiz=doc.getroot()
+
+dia=raw_input("Introduce el dia: ")
