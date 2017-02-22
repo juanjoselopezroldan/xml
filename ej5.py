@@ -5,3 +5,6 @@ doc = etree.parse('Biblioteca.xml')
 raiz=doc.getroot()
 
 dia=raw_input("Introduce el dia: ")
+
+for cod in raiz:
+    for codigo in cod:
