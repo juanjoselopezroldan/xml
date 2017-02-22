@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#Introduce por teclado dia y que muestre las bibliotecas que abren ese dia, junto con su direccion y su localizacion en el mapa.
+#Introduce por teclado dia y hora y que muestre las bibliotecas que abren ese dia a esa hora, junto con su direccion y su localizacion en el mapa.
 from lxml import etree
 doc = etree.parse('Biblioteca.xml')
 raiz=doc.getroot()
