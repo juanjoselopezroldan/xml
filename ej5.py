@@ -10,3 +10,4 @@ for cod in raiz:
     for codigo in cod:
         for dias in codigo:
             if dias.tag==dia:
+                print "-La Biblioteca se llama:",codigo.getparent().find("nombre").text
